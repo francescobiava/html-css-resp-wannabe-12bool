@@ -1,17 +1,19 @@
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* BLOCCO LEZIONI */
-#lezioni .row > .left, #lezioni .row > .right{
-  width: 50%;
-  float: left;
+#lezioni h1 {
+  padding-top: 25px;
 }
 
-#lezioni .row img {
+#lezioni [class*="col-"] {
+  padding: 20px;
+}
+
+#lezioni img {
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
@@ -59,7 +61,7 @@
 }
 
 img{
-  height: 200px;
+  height: 150px;
 }
 
 .clear {
